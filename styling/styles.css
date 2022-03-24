@@ -282,8 +282,8 @@ section {
 }
 
 .header-content .left-header .image img:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
+    -webkit-filter: blur(0);
+    filter: blur(0);
 }
 
 .header-content .right-header {
