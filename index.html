@@ -2,9 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
+<!--main content-->
+<body class="main-content">
+<header class="section sec1 header active" id="home">
+    <div class="header-content">
+        <div class="left-header">
+            <div class="h-shape"></div>
+            <div class="image">
+                <img src="img here" alt="">
+            </div>
+        </div>
+<!--        introductory paragraph-->
+        <div class="right-header">
+            <h1 class="name">
+                Hi, I'm <span>Mersedyes Livingston.</span>
+                A Full Stack Development Student.
+            </h1>
+            <p>
+                I'm a current Full Stack Development student, with a background in education, program development, and
+                pharmaceutical sciences. I aspire to engage technology that is empathetic to the human experience.
+            </p>
+            <div class="btn-con">
+                <a href="" class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
 
+<!--buttons to navigate site pages-->
+<div class="controlls">
+    <div class="control  control-1 active-btn" data-id="home" >
+        <i class="fas fa-home"></i>
+    </div>
+    <div class="control control-2 " data-id="about">
+        <i class="fas fa-user"></i>
+    </div>
+    <div class="control control-3" data-id="portfolio">
+        <i class="fas fa-briefcase"></i>
+    </div>
+    <div class="control control-4" data-id="blogs">
+        <i class="far fa-newspaper"></i>
+    </div>
+    <div class="control control-5" data-id="contact">
+        <i class="fas fa-envelope-open"></i>
+    </div>
+</div>
+
+<div class="theme-btn">
+    <i class="fas fa-adjust"></i>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
