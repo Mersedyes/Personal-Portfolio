@@ -988,7 +988,7 @@ section {
     position: relative;
     text-transform: uppercase;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .main-title h2 span {
@@ -1005,7 +1005,7 @@ section {
     z-index: -1;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-weight: 800;
+    font-weight: 600;
     font-size: 6.3rem;
 }
 
