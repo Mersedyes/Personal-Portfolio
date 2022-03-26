@@ -27,7 +27,7 @@
     --color-secondary: #F4978E;
     --color-white: #F08080;
     --color-black: #F8AD9D;
-    --color-grey-1: #FF6347;
+    --color-grey-1: #FDCFB2;
     --color-grey-2: #F28C87;
     --color-grey-3: #FF6347;
     --color-grey-4: #FDCFB2;
@@ -882,7 +882,7 @@ section {
     padding: .8rem 1.1rem;
     outline: none;
     border: none;
-    background-color: var(--color-grey-5);
+    background-color: var(--color-grey-1);
     width: 100%;
     color: var(--color-white);
     resize: none;
