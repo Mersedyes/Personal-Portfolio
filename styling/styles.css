@@ -56,6 +56,8 @@ header {
     color: var(--color-white);
     overflow: hidden;
 }
+/*preloader styling*/
+
 
 section {
     min-height: 100vh;
